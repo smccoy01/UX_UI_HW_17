@@ -53,8 +53,6 @@ h1 {
   font-family: 'Puritan', sans-serif;
 }
 
-.head{
-}
 
 .heroImg {
   height: 550px;
@@ -73,12 +71,34 @@ h1 {
   background-color: black;
 }
 
-.logo {
-  padding: 1%;
-  text-align: center;
-  width: 23%;
+.item{
+  padding: 0 15px 0 15px;
+  font-family: didot;
+  font-size: 1.5em;
+  float:right;
 }
 
+.logo{
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.menu{
+  display: inline-block;
+  position:absolute;
+  right:0;
+  top:20px;
+  background-color: black;
+  width:70%;
+  float:right;
+}
+
+.myname{
+
+  position:relative;
+  top:20px;
+}
 
 .pic {
   position: absolute;
@@ -96,8 +116,16 @@ margin-left: auto;
 }
 
 nav {
-  margin-left: auto;
-  width: 73%;
+  margin-right: auto;
   padding: 1%;
   text-align: center;
+
+}
+.stuff{
+  width:20%;
+}
+.topnav{
+background-color: black;
+position:relative;
+
 }
